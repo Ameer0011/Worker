@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="u" placeholder="رابط">
+<button onclick="go()">فتح</button>
+
+<iframe id="f" style="width:100%;height:90vh;"></iframe>
+
+<script>
+function go(){
+  document.getElementById("f").src =
+    document.getElementById("u").value;
+}
+</script>
+
+</body>
+</html>
